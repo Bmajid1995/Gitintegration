@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedbackroom"
+    android:orientation="vertical"
+    android:background="@drawable/transparentfeedbackuiwallpaper">
+
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="41dp"
+            android:src="@drawable/arrowbackforfeedbackroom"
+            android:clickable="true"
+            android:id="@+id/backarrowforfeedbackroom"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enter Email address"
+            android:textColor="#642A61"
+            android:textSize="50dp"
+            android:fontFamily="@font/colabthi"
+            android:layout_marginTop="60dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundededittext"
+            android:hint="Email address"
+            android:textAlignment="center"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type a problem"
+            android:textColor="#642A61"
+            android:textSize="50dp"
+            android:fontFamily="@font/colabthi"
+            android:layout_marginTop="20dp">
+
+        </TextView>
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="140dp"
+            android:clickable="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/roundedproblembox"
+            android:hint="Type a problem"
+            android:textAlignment="center"
+            />
+
+
+
+</LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:padding="10dp"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:layout_width="255dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/roundedbuttonforfeedback"
+            android:clickable="true"
+            android:text="Submit"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="19dp"
+            android:id="@+id/submitbuttonforfeedbackroom"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

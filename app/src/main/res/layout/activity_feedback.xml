@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback"
+    android:background="@drawable/gradientforfeedbackactivity"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please share your"
+            android:textColor="#FFFFFF"
+            android:textSize="60dp"
+            android:fontFamily="@font/leaguegothiegular"
+            >
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="experience  !"
+                android:textColor="#FFFFFF"
+                android:textSize="60dp"
+                android:fontFamily="@font/leaguegothiegular"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Do let us know your thoughts"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your feedback matters"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Maybe Later"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif-condensed"
+                android:clickable="true"
+                android:id="@+id/maybelater"
+                >
+
+            </TextView>
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="308dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/smiletwo" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+
+        android:padding="10dp">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/roundedbuttonforfeedback"
+        android:text="Next"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:clickable="true"
+        android:textAllCaps="false"
+        android:textSize="19dp"
+        android:id="@+id/nextfeedbackbutton"/>
+
+    </RelativeLayout>
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Do let us know your thoughts"-->
+<!--        android:textColor="#FFFFFF"-->
+<!--        android:textSize="19dp"></TextView>-->
+
+
+
+
+
+    </LinearLayout>
+
+
+

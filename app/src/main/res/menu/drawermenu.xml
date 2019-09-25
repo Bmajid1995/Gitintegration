@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:title="Home and Sharing">
+
+        <menu>
+        <item android:id="@+id/nav_homemenu"
+        android:title="Home"
+        android:icon="@drawable/ic_home_black_24dp"></item>
+
+            <item android:id="@+id/nav_profile"
+                android:title="Profile"
+                android:icon="@drawable/ic_person_black_24dp"></item>
+
+    <item android:id="@+id/nav_sharemenu"
+        android:title="Share"
+        android:icon="@drawable/ic_share_black_24dp"></item>
+
+    <item android:id="@+id/nav_aboutusmenu"
+        android:title="About Us"
+        android:icon="@drawable/ic_sentiment_satisfied_black_24dp"></item>
+        </menu>
+    </item>
+
+
+<!--    <group android:id="@+id/grouptwo" android:visible="true" android:checkableBehavior="single">-->
+
+        <item android:title="Communicate">
+    <menu>
+
+
+        <item android:id="@+id/nav_settingsandmiscmenu"
+            android:title="Settings / Misc."
+            android:icon="@drawable/ic_settings_black_24dp"
+            ></item>
+
+        <item android:id="@+id/nav_ratemenu"
+            android:title="Rate Alternando"
+        android:icon="@drawable/ic_thumb_up_black_24dp"></item>
+
+
+    </menu>
+        </item>
+<!--    </group>-->
+
+
+</menu>

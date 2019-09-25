@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/slide_image"
+        android:layout_width="153dp"
+        android:layout_height="136dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/messagenotification" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Messages"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:id="@+id/slide_headings"
+        />
+
+<!--    <RelativeLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/layout"/>-->
+<!--    <LinearLayout-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_margin="30dp"-->
+<!--        android:id="@+id/newlinearlayout">-->
+
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Application notify you every"
+        android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="330dp"
+        android:id="@+id/slide_description"
+        android:fontFamily="@font/colabthi"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="message you received"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="355dp"
+        android:id="@+id/slide_descriptionone"
+        android:fontFamily="@font/colabthi"
+        android:textStyle="bold"
+        />
+
+
+<!--    </LinearLayout>-->
+
+<!--</RelativeLayout>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="message you received"-->
+<!--        android:textSize="20dp"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginTop="325dp"/>-->
+
+</RelativeLayout>
